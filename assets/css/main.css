@@ -44,3 +44,21 @@ iframe {
     background: #86EFAC;
     border-radius: 35px;
 }
+
+.bloco {
+    padding-top: 2em;
+}
+
+.rectangle2 {
+
+    position: flex;
+    width: 320px;
+    height: 77px;
+    margin: 10px auto 10px auto;
+    background: #EEF0EF;
+
+}
+
+.produto{
+    margin: auto auto 10px auto;
+}
