@@ -7,13 +7,14 @@ body {
     background-color: #EEF0EF;
 }
 
-.primeira_tela{
+.primeira_tela {
     width: 228px;
     height: 204px;
     margin-top: 5rem;
 }
 
-.entrada_2, .entrada{
+.entrada_2,
+.entrada {
     background-color: #86EFAC !important;
     color: black;
     font-weight: 600;
@@ -29,7 +30,7 @@ body {
 
 }
 
-.entrada_2 i{
+.entrada_2 i {
     /* height: 20em !important;
     width: 4em !important; */
     font-size: 800%;
@@ -97,7 +98,40 @@ iframe {
     margin-top: 2em;
 }
 
-.brand-logo{
+.brand-logo {
     width: 200px;
     height: 70px;
+}
+
+
+
+.login-form {
+    width: 300px !important;
+    margin: auto !important;
+    text-align: center !important;
+}
+
+.login-logo {
+    width: 100px !important;
+    height: 100px !important;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+}
+
+.login-input {
+    width: 80% !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    border: 1px solid #ccc !important;
+    margin-bottom: 10px !important;
+    margin-left: 20px !important;
+}
+
+.login-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
