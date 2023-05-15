@@ -7,6 +7,35 @@ body {
     background-color: #EEF0EF;
 }
 
+.primeira_tela{
+    width: 228px;
+    height: 204px;
+    margin-top: 5rem;
+}
+
+.entrada_2, .entrada{
+    background-color: #86EFAC !important;
+    color: black;
+    font-weight: 600;
+    font-size: small;
+    width: 60%;
+    height: 4em;
+    margin-left: 1.5vh;
+}
+
+.entrada_2 {
+    height: 12em;
+    margin-left: 8vh;
+
+}
+
+.entrada_2 i{
+    /* height: 20em !important;
+    width: 4em !important; */
+    font-size: 800%;
+    padding-top: 25%;
+}
+
 nav {
     background-color: #86EFAC !important;
 }
@@ -59,6 +88,16 @@ iframe {
 
 }
 
-.produto{
-    margin: auto auto 10px auto;
+.produto {
+    margin: 9px 2px 9px 5px;
+}
+
+.local {
+    font-size: 14px;
+    margin-top: 2em;
+}
+
+.brand-logo{
+    width: 200px;
+    height: 70px;
 }
