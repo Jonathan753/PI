@@ -11,23 +11,32 @@
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="manifest" href="manifest.json">
+
     <title>AgriUrban</title>
 </head>
 
 <body>
 
     <div class="login-form">
-        <img class="capa" src="./assets/css/image/logo_AgriUrban.png"
-                alt="Girl in a jacket"></div>
-        <form>
-            <input class="login-input"  type="email" placeholder="E-mail">
-            <input class="login-input"  type="number" placeholder="Telefone">
-            <input class="login-input" type="password" placeholder="Senha">
-            <input class="login-input" type="password" placeholder="Confirmar senha">
-
-            <button class="login-button botao" type="submit">Enviar</button>
-        </form>
+        <img class="capa" src="./assets/css/image/logo_AgriUrban.png" alt="Girl in a jacket">
     </div>
+    <form>
+        <input class="login-input" type="email" placeholder="E-mail">
+        <input class="login-input" type="number" placeholder="Telefone">
+        <input class="login-input" type="password" placeholder="Senha">
+        <input class="login-input" type="password" placeholder="Confirmar senha">
+
+        <button class="login-button botao" type="submit">Enviar</button>
+    </form>
+    </div>
+
+    <script type="module">
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+    </script>
 </body>
 
 </html>
